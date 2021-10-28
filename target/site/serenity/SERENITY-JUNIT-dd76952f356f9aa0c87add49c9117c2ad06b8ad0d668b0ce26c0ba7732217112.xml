@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="POrtal Demoblaze" skipped="0" tests="4" time="73.03" timestamp="2021-10-28 08:31:58"><testcase name="Register as a new user"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //div[@class='modal-content']//div[@class='modal-footer']//button[@class='btn btn-primary']" type="java.lang.AssertionError">
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='modal-content']//div[@class='modal-footer']//button[@class='btn btn-primary']</failure><system-err>
+Expected: an element that is visible
+     but: no matching element found by xpath: //div[@class='modal-content']//div[@class='modal-footer']//button[@class='btn btn-primary']&#13;
+co.com.tata.prueba.taks.SingUp.performAs(SingUp.java:34)&#13;
+co.com.tata.prueba.stepdefinitions.PortalDemoblazeStepDefinitions.heCompleteAllDataForRegister(PortalDemoblazeStepDefinitions.java:37)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="login user"/><testcase name="add a product"><error message="The following error occurred: stale element reference: element is not attached to the page document&#10;  (Session info: chrome=95.0.4638.54)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-JDRNT58', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\RYZEN5~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 18d142b78118d0c84d39da87cd9aff1c" type="org.openqa.selenium.StaleElementReferenceException">The following error occurred: stale element reference: element is not attached to the page document
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-JDRNT58', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\RYZEN5~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d142b78118d0c84d39da87cd9aff1c</error><system-err>The following error occurred: stale element reference: element is not attached to the page document
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-JDRNT58', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\RYZEN5~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 18d142b78118d0c84d39da87cd9aff1c&#13;
+co.com.tata.prueba.taks.AddProduct.performAs(AddProduct.java:43)&#13;
+co.com.tata.prueba.stepdefinitions.PortalDemoblazeStepDefinitions.theUserSelectsTheProduct(PortalDemoblazeStepDefinitions.java:47)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="register form contact"/></testsuite>
